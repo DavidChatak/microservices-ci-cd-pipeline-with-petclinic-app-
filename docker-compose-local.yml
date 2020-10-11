@@ -84,13 +84,13 @@ services:
     ports:
      - 9411:9411 
   grafana-server:
-    image: petclinic-grafana-server:dev
+    image: grafana:dev
     container_name: grafana-server
     mem_limit: 256M
     ports:
     - 3000:3000
   prometheus-server:
-    image: petclinic-prometheus-server:dev
+    image: prometheus:dev
     container_name: prometheus-server
     mem_limit: 256M
     ports:
