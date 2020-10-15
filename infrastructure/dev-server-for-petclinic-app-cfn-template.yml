@@ -90,7 +90,6 @@ Resources:
             yum install git -y
             yum install java-11-amazon-corretto -y
             git clone https://github.com/DavidChatak/microservices-ci-cd-pipeline-with-petclinic-app-.git
-            cd microservices-ci-cd-pipeline-with-petclinic-app-/ 
             git fetch
             git checkout dev
   PetclinicServer:
