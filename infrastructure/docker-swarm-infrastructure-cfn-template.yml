@@ -7,9 +7,8 @@ Description: |
   User needs to select appropriate key name when launching the template.
 Parameters:
   ParameterName:
-    Description: 
+    Description: keypair
     Type: AWS::EC2::KeyPair::KeyName
-    Default: NVPEM
     ConstraintDescription: Must one of the existing EC2 KeyPair
   
 Resources:
