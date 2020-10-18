@@ -6,8 +6,8 @@ Description: |
   and TCP(2377, 7946, 8080) connections from anywhere.
   User needs to select appropriate key name when launching the template.
 Parameters:
-  ParameterName:
-    Description: keypair
+  KeyPairName:
+    Description: Enter the name of your Key Pair for SSH connections.
     Type: AWS::EC2::KeyPair::KeyName
     ConstraintDescription: Must one of the existing EC2 KeyPair
   
